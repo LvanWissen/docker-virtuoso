@@ -40,7 +40,7 @@ COPY virtuoso.sh /virtuoso.sh
 
 VOLUME /data
 WORKDIR /data
-EXPOSE 8890
+EXPOSE 80
 EXPOSE 1111
 
 CMD ["/bin/bash", "/virtuoso.sh"]
